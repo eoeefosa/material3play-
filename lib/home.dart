@@ -241,6 +241,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     return AnimatedBuilder(
       animation: controller,
       builder: (context, child) {
+        // just like scaffold in andriod
         return NavigationTransition(
           scaffoldKey: scaffoldKey,
           animationController: controller,
@@ -383,7 +384,6 @@ class _ColorSeedButton extends StatelessWidget {
   }
 }
 
-
 final List<NavigationRailDestination> navRailDestinations = appBarDestinations
     .map(
       (destination) => NavigationRailDestination(
@@ -399,8 +399,3 @@ final List<NavigationRailDestination> navRailDestinations = appBarDestinations
       ),
     )
     .toList();
-
-
-
-
-
