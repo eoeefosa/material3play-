@@ -17,6 +17,7 @@ class FirstComponentList extends StatelessWidget {
   });
 
   final bool showNavBottomBar;
+  // showNavBottomBar not used now
   final GlobalKey<ScaffoldState> scaffoldKey;
   final bool showSecondList;
 

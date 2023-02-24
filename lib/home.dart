@@ -78,7 +78,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         showMediumSizeLayout = false;
         showLargeSizeLayout = true;
       } else {
-        // ru
+        // if width>mediumwidthBreakpoint && width<largeWithbreakpoint
         showMediumSizeLayout = true;
         showLargeSizeLayout = false;
       }
